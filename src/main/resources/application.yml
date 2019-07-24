@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: scala_webflux_user
+
+  #mongodb
+  data:
+    mongodb:
+      port: 27017
+      #mongodbservice
+      host: 192.168.43.17
+      database: admin
+      username: tony
+      password: 123456
